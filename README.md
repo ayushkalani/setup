@@ -1,4 +1,4 @@
-# Welcome to StackEdit!
+# Welcome to yet another dev steup!
 
 # Github
 Checkout  [.sshconfig](https://github.com/ayushkalani/setup/blob/master/.sshconfig ".sshconfig") and setup multiple profiles/github ssh keys there.
