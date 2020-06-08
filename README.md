@@ -1,11 +1,8 @@
-# setup
-Github local multiple profile setting
+# Welcome to StackEdit!
 
-You can configure an individual repo to use a specific user / email address which overrides the global configuration. From the root of the repo, run
+# Github
+Checkout  [.sshconfig](https://github.com/ayushkalani/setup/blob/master/.sshconfig ".sshconfig") and setup multiple profiles/github ssh keys there.
 
-git config user.name "Your Name Here"
-git config user.email your@email.com
-whereas the default user / email is configured in your ~/.gitconfig
-
-git config --global user.name "Your Name Here"
-git config --global user.email your@email.com
+If you do a git commit/push/pull it will be done via default git profile setup in sshconfig.
+If you want to change your account use git command like this -
+git push git@github.com-personal:ayushkalani/leetcodes.git
